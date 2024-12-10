@@ -1,7 +1,216 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kit Simmonds</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        .intro {
+            /* background: url('images/mountains.jpg') no-repeat center center;
+            background-size: cover; */
+            background: white;
+            padding: 2vh 2vw;
+            min-height: 80vh;
+            position: relative;
+            z-index: 3;
+        }
+
+        .section-pair {
+            position: relative;
+        }
+
+        .title-section {
+            background: black;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        .content-section {
+            background: white;
+            padding: 2vh 2vw;
+            min-height: 100vh;
+            position: relative;
+            z-index: 2;
+            margin-top: 60vh;
+        }
+
+        .title {
+            color: white;
+            text-align: center;
+        }
+
+        .ascii-art {
+            font-family: monospace;
+            white-space: pre;
+            font-size: 1.0vw;
+            line-height: 1.2;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .intro-ascii {
+            font-family: monospace;
+            white-space: pre;
+            font-size: 0.7vw;
+            line-height: 1.2;
+            display: inline-block;
+            text-align: center;
+            margin-bottom: 70vh;
+            color: black;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 { font-size: 3rem; margin-bottom: 1rem; }
+        h2 { font-size: 2.5rem; margin-bottom: 1rem; }
+        h3 { font-size: 1.0rem; margin-bottom: 1rem; }
+        p {margin-bottom: 0.8rem; }
+
+        /* @media (max-width: 768px) {
+            .ascii-art {
+                font-size: 1.5vw;
+            }
+            .intro-ascii {
+                font-size: 2.5vw;
+            }
+        } */
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <section class="intro">
+        <div class="container">
+            <pre class="intro-ascii">
+      :::    ::: ::::::::::: :::::::::::          :::::::: :::::::::::   :::   :::     :::   :::    ::::::::  ::::    ::: :::::::::   ::::::::
+     :+:   :+:      :+:         :+:             :+:    :+:    :+:      :+:+: :+:+:   :+:+: :+:+:  :+:    :+: :+:+:   :+: :+:    :+: :+:    :+:
+    +:+  +:+       +:+         +:+             +:+           +:+     +:+ +:+:+ +:+ +:+ +:+:+ +:+ +:+    +:+ :+:+:+  +:+ +:+    +:+ +:+        
+   +#++:++        +#+         +#+             +#++:++#++    +#+     +#+  +:+  +#+ +#+  +:+  +#+ +#+    +:+ +#+ +:+ +#+ +#+    +:+ +#++:++#++  
+  +#+  +#+       +#+         +#+                    +#+    +#+     +#+       +#+ +#+       +#+ +#+    +#+ +#+  +#+#+# +#+    +#+        +#+   
+ #+#   #+#      #+#         #+#             #+#    #+#    #+#     #+#       #+# #+#       #+# #+#    #+# #+#   #+#+# #+#    #+# #+#    #+#    
+###    ### ###########     ###              ######## ########### ###       ### ###       ###  ########  ###    #### #########   ########      
+            </pre>
+            <!-- <h1>Kit Simmonds</h1>
+            <h2>Research Portfolio</h2> -->
+            <p>Welcome to my research portfolio. Here you will find detailed descriptions of my research projects, interests, and key findings. Explore the sections below to learn more about my work and its impact.</p>
+
+        </div>
+    </section>
+
+    <div class="section-pair">
+        <section class="title-section">
+            <div class="title">
+                <pre class="ascii-art">
+      :::::::::  :::::::::: ::::::::  ::::::::::     :::     :::::::::   ::::::::  :::    ::: 
+     :+:    :+: :+:       :+:    :+: :+:          :+: :+:   :+:    :+: :+:    :+: :+:    :+:  
+    +:+    +:+ +:+       +:+        +:+         +:+   +:+  +:+    +:+ +:+        +:+    +:+   
+   +#++:++#:  +#++:++#  +#++:++#++ +#++:++#   +#++:++#++: +#++:++#:  +#+        +#++:++#++    
+  +#+    +#+ +#+              +#+ +#+        +#+     +#+ +#+    +#+ +#+        +#+    +#+     
+ #+#    #+# #+#       #+#    #+# #+#        #+#     #+# #+#    #+# #+#    #+# #+#    #+#      
+###    ### ########## ########  ########## ###     ### ###    ###  ########  ###    ###       
+                </pre>
+            </div>
+        </section>
+        <section class="content-section">
+            <div class="container">
+                <h3>The Optimisation of Artificial Entheses</h3>
+                <p>Description of research project and its key findings. This is where you would detail the specific aspects of your work, methodologies used, and results achieved.</p>
+                <p>Further elaboration on the impact and implications of your research findings...</p>
+                <h3>Project Two</h3>
+                <p>Description of another research project showing the breadth of your work.</p>
+                <p>More details about methodology and results...</p>
+            </div>
+        </section>
+    </div>
+
+    <div class="section-pair">
+        <section class="title-section">
+            <div class="title">
+                <pre class="ascii-art">
+      :::        ::::::::::: ::::    ::: :::    ::: :::::::: 
+     :+:            :+:     :+:+:   :+: :+:   :+: :+:    :+: 
+    +:+            +:+     :+:+:+  +:+ +:+  +:+  +:+         
+   +#+            +#+     +#+ +:+ +#+ +#++:++   +#++:++#++   
+  +#+            +#+     +#+  +#+#+# +#+  +#+         +#+    
+ #+#            #+#     #+#   #+#+# #+#   #+# #+#    #+#     
+########## ########### ###    #### ###    ### ########       
+                </pre>
+            </div>
+        </section>
+        <section class="content-section">
+            <div class="container">
+                <h3>Interest Area One</h3>
+                <p>Description of your research interests and their broader implications. Here you can explain what drives your research and why it matters.</p>
+                <h3>Interest Area Two</h3>
+                <p>Description of another research interest showing the diversity of your work.</p>
+                <p>Additional details about specific areas of focus within your field...</p>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('.section-pair');
+            
+            sections.forEach(section => {
+                const titleSection = section.querySelector('.title-section');
+                const title = section.querySelector('.title');
+                const contentSection = section.querySelector('.content-section');
+                let transitionStarted = false;
+                let colorTransitionComplete = false;
+                let startScrollY = 0;
+
+                window.addEventListener('scroll', () => {
+                    const rect = titleSection.getBoundingClientRect();
+                    const titleCenter = rect.top + (rect.height / 2);
+                    const windowCenter = window.innerHeight / 2;
+                    
+                    if (Math.abs(titleCenter - windowCenter) < 10 && !transitionStarted) {
+                        transitionStarted = true;
+                        startScrollY = window.scrollY;
+                    }
+
+                    if (transitionStarted) {
+                        const progress = (window.scrollY - startScrollY) / window.innerHeight;
+                        const percentage = Math.min(Math.max(progress, 0), 1);
+                        const colorValue = Math.round(255 * percentage);
+                        
+                        titleSection.style.backgroundColor = `rgb(${colorValue}, ${colorValue}, ${colorValue})`;
+                        title.style.color = `rgb(${255 - colorValue}, ${255 - colorValue}, ${255 - colorValue})`;
+                        contentSection.style.backgroundColor = `rgb(${colorValue}, ${colorValue}, ${colorValue})`;
+                        
+                        if (percentage >= 1) {
+                            const scrollAwayProgress = (window.scrollY - (startScrollY + window.innerHeight)) / window.innerHeight;
+                            titleSection.style.top = `${-100 * scrollAwayProgress}vh`;
+                        }
+
+                        if (window.scrollY < startScrollY - 50) {
+                            transitionStarted = false;
+                            colorTransitionComplete = false;
+                            titleSection.style.backgroundColor = 'black';
+                            title.style.color = 'white';
+                            titleSection.style.top = '0';
+                        }
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
